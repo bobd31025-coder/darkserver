@@ -1,69 +1,56 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
-<style>body {
-    background-color: black;
-color: #00ff00;
-}
-img {
-    width: 85%;          /* لكي يصبح حجم الصورة مناسباً وممتازاً لشاشة الآيفون */
-    border-radius: 12px; /* لإضافة انحناء دائري خفيف واحترافي على زوايا الصورة */
-    display: block;      /* خطوات لتوسيط الصورة */
-    margin: 20px auto;   /* جعل الصورة في المنتصف تماماً مع ترك مسافة فوقها وتحتها */
-}
-button {
-    background-color: #00ff00; /* خلفية الزر خضراء فوسفورية */
-    color: black;              /* الكتابة داخل الزر باللون الأسود */
-    padding: 15px 35px;        /* ترك مسافة مريحة داخل الزر */
-    border: none;              /* إزالة الحواف التقليدية المزعجة */
-    border-radius: 5px;        /* جعل زوايا الزر دائرية بشكل خفيف */
-    font-weight: bold;         /* جعل الخط عريضاً */
-    display: block;            /* خطوات لتوسيط الزر */
-    margin: 20px auto;         /* وضعه في المنتصف تماماً */
-font-size: 16pt;
-}
-</style>
-<meta charset="UTF-8">
-<title>دارك سيرفر موجود تم تهكير هاتفك😂
-لما ار شي 
-مهما حاولت فلن تستطيع
-البداية مضحكة والقادم افضل
-</title> 
-<button onclick="تنبيه()">دخول إلى السيرفر المظلم</button>
-
+    <meta charset="UTF-8">
+    <title>رابط تحميل محاكي الشاص</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding-top: 50px;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            font-size: 16pt;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-<h1>كل اسرارك موجودة لدينا ما !تتمناه
-<p>!لما ار شي</p>
-<p>!مهما حاولت فلن تستطيع</p>
-<p>!البداية مضحكة والقادم افضل</p>
-<p>دارك سيرفر موجود تم تهكير هاتفك😂
-</h1>
-<img src="IMG_2277.HEIC">
-<button>انترنت مجاناا!</button>
-<h2 id="countdown"></h2>
 
-<script>
-function تنبيه() {
+    <h1>تحميل محاكي الشاص مجاناً بدون تكاليف اضغط هنا</h1>
+    <button onclick="تنبيه()">اضغط للتحميل</button>
+    
+    <img src="IMG_2392.jpg" alt="صورة المعاينة" style="max-width:100%; height:auto;">
+    <h2 id="countdown"></h2>
+
+    <script>
     var timeLeft = 10; // سنبدأ العد من الرقم 10
     var timerElement = document.getElementById("countdown");
+    var interval;
 
-    // أمر يقوم بتكرار الكود كل ثانية (1000 ملي ثانية)
-    var interval = setInterval(function() {
-        if (timeLeft <= 0) {
-            clearInterval(interval);
-            timerElement.innerHTML = "💥 تم تفجير السيرفر بنجاح! 💥";
-            alert("بمب! راحت عليك ملفاتك 😂");
-        } else {
-            timerElement.innerHTML = "⚠️ جاري تدمير الهاتف خلال: " + timeLeft + " ثواني...";
+    function تنبيه() {
+        if (!interval) { // منع تكرار العداد إذا ضغط الزر أكثر من مرة
+            interval = setInterval(function() {
+                if (timeLeft <= 0) {
+                    clearInterval(interval);
+                    timerElement.innerHTML = "💥 تم تفجير السيرفر بنجاح! 💥";
+                    alert("بمب! راحت عليك ملفاتك 😂");
+                } else {
+                    timerElement.innerHTML = "⚠️ سوف يتم التحميل بعد " + timeLeft + " ثواني...";
+                }
+                timeLeft -= 1; // إنقاص الوقت بمقدار 1 في كل ثانية
+            }, 1000);
         }
-        timeLeft -= 1; // إنقاص الوقت بمقدار 1 في كل ثانية
-    }, 1000);
-}
+    }
+    </script>
 
+    <script data-goatcounter="https://darkserver.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
-</script>
-<script data-goatcounter="https://darkserver.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
+
